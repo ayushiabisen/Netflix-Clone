@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SignIN</title>
+    <link rel="stylesheet" href="sign.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="sign.js" defer></script>
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet"/>
+</head>
+<body>
+            <div>
+            <img src="Netflix_Logo.jpg" width="100" height="80" alt="">     
+            <div class="dropdown">
+                <button class="toggle1" type="button" data-toggle="dropdown">Language</button>
+                <ul class="dropdown-menu">
+               <li><a href="#">English</a></li>
+               <li><a href="#">Hindi</a></li>
+                </ul>
+           </div>
+          
+            <div class="right">
+            <button id="myBtn">Sign In</button>
+            </div>
+            </div>  
+            <div id="myModal" class="modal">
+                <img src="Netflix_Logo.jpg" width="100" height="80" alt="">  
+                <!-- Modal content -->
+                <div class="modal-content">
+                   
+                  <form action="#" name="form1">
+                    <span class="closeBtn">&times;</span> 
+                    <h3>Sign In</h3>
+                    <div class="field">
+                        <div class="input-field email-field">
+                            <label for="username">Username</label>
+                            <input class="in" type="email" name='text1' placeholder=" Please enter Email Address" id="username">
+                        </div>
+                        <span class="error email-error">
+                            <i class='bx bx-error-circle error-icon'></i> 
+                            <p class="error-text" >Please enter a valid Email</p>
+                        </span>
+                    </div>
+                  <br>
+                        
+                  <div class="field">
+                    <div class="input-field Password">
+                    <label for="password">Password</label>
+                    <input class="in" type="password" placeholder="Password" id="password" onkeydown="createPass()">
+                    <i class='bx bx-hide show-hide'></i>
+                    <i class='bx bx-show show-hide'></i>
+                    </div>
+                    <span class="error password-error">
+                        <i class='bx bx-error-circle error-icon'></i> 
+                        <p class="error-text">Please enter a valid Password</p>
+                    </span>
+                  </div>
+                    <br><br>
+                    <button id="myButton" class=button2 type="submit" style="vertical-align: middle;" onclick="location.href = 'Welcome.html';">Sign In</button>
+                    <input style="width: 15px;" type="checkbox"> Remember me
+                    <br><br><br>
+                    <div>New to Netflix?
+                    <a href="sign.html">Sign up now.</a>
+                    <p class="forget">
+                    <a class="help"href="reset.html">Forget Password?</a></p>
+                     </div>
+                    </form>  
+                </div>
+              
+              </div>
+        
+        <div class= Headline>
+            <h1><strong>
+                Unlimited movies, TV shows<br> and more.
+            </strong><br><small>Watch anywhere. Cancel anytime.</small>
+            </h1>
+        </div>
+        <div class=passage>
+            <h4>Ready to watch? Enter your email to create or restart your membership.</h4>
+        </div>
+            <div class="Email">
+            <input type="text" id="Email" placeholder="Please Enter Your Email Address....">
+        </div>
+            <button id="myButton" class=button1 type="submit" style="vertical-align: middle;" onclick="location.href = 'Welcome.html';">
+            <span > GET STARTED </span>
+            </button>
+
+</body>
+</html>

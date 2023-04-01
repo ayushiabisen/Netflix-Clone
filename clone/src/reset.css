@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+html,body{
+    font-family: Roboto, sans-serif;
+    height: 100%;
+    margin: 0;
+    
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url("https://assets.nflxext.com/ffe/siteui/vlv3/8f12b4f0-a894-4d5b-9c36-5ba391c63fbe/44355e66-dbf8-4dd8-ba6b-8e9e32ec6abd/IN-en-20230320-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    background-repeat: no-repeat;  
+}
+
+.input-box{
+    height: 45px;
+    margin: 15px 0 10px 0;
+  
+  }
+.input-box input{
+    height: 100%;
+    width: 100%;
+    padding-left: 14px;
+    outline: none;
+    font-size: 18px;
+    transition: all 0.4s ease;
+  
+  }
+  .input-box input[type="submit"]{
+    border: none;
+    cursor: pointer;
+    background: #6665ee;
+    color: #fff;
+    letter-spacing: 1px;
+  }
+  .input-box input[type="submit"]:hover{
+    background: #1414b8;
+  }
+  .h1{
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    text-align: left;
+  }
+ form{
+     align-items: center;
+     text-align: left;
+     top:50%;
+     overflow: hidden;
+     cursor: pointer;
+     color: #fff;
+  
+ }
+ .btn-close{
+  margin-left: 95%;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: black;
+  font-size: large;
+  border: red;
+  
+ }

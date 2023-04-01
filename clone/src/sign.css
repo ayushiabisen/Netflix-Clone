@@ -1,0 +1,310 @@
+
+
+html,body {
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url("https://assets.nflxext.com/ffe/siteui/vlv3/8f12b4f0-a894-4d5b-9c36-5ba391c63fbe/44355e66-dbf8-4dd8-ba6b-8e9e32ec6abd/IN-en-20230320-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: auto;
+    background-repeat: no-repeat;
+}
+.dropdown{
+    float: right;
+    display: inline;
+    padding: 14px 16px;
+    width: 10%;
+}
+.Headline{
+    color:white;
+    margin-right:20px;
+    text-align: center;
+    font-size: larger;
+    font-weight:bolder;
+    left: 0;
+    line-height: 200px;
+    margin-top: -150px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+
+}
+.passage{
+    color:white;
+    margin-right:20px;
+    text-align: center;
+    font-size: larger;
+    font-weight:bolder;
+    left: 0;
+    line-height: 200px;
+    margin-top: -10px;
+    position: absolute;
+    top: 51%;
+    width: 100%;
+}
+.Email{
+    color: #fff;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    position: relative;
+    margin-right:20px;
+    margin-top: -10px;
+    line-height: 0.1px;
+    top: 45%;
+}
+.Email input[type="text"]{
+    width: 100%;
+    color: #fff;
+    padding: 20px;
+    padding-right: 60px;
+    box-sizing: border-box;
+    background: transparent ;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    color: #fff;
+    outline: none;
+        
+}
+.button1{
+    color:white;
+    width:fit-content;
+    background-color: red;
+    display: inline-block;
+    border-radius: 8px;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 2px 2px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button1:hover span {
+    padding-right: 25px;
+  }
+  
+  .button1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .right{
+    float: right;
+    display: inline;
+    padding: 14px 16px;
+    top:10%;
+    right:10%;
+    color: red;
+    width: 10%;
+    
+    
+  }
+
+.modal-content{
+        margin: 10% auto; /* 10% from the top and centered */
+        padding: 15px;
+        top: 15%;
+        width: 1%; 
+        position:fixed ;
+}
+  
+ form{
+    height: 520px;
+    width: 500px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+    color: #fff;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    color: white;
+    }
+
+.help{
+    color: red;
+}
+
+.forget{
+    text-align: right;
+
+}
+.modal{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url("https://assets.nflxext.com/ffe/siteui/vlv3/8f12b4f0-a894-4d5b-9c36-5ba391c63fbe/44355e66-dbf8-4dd8-ba6b-8e9e32ec6abd/IN-en-20230320-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: auto;
+    background-repeat: no-repeat;
+}
+.in{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+::placeholder{
+    color: #e5e5e5;
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.center{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.center button{
+    padding: 10px 20px;
+    font-size:15px;
+    font-weight: 60;
+    color:#222;
+    background-color: #f5f5f5;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: fit-content;
+}
+.popup{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:fit-content;
+    padding: 20px 30px;
+    background:black;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.15);
+    border-radius: 10px;
+    
+}
+.button2 {
+    background-color: white;
+    color: #000;
+    border-radius: .3em;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    }
+   
+   .closeBtn{
+       color:#ccc;
+       float: right;
+       font-size: 30px;
+       text-align: right;
+
+    }
+    .closeBtn:hover,.closeBtn:focus{
+        color:#000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    @keyframes modalopen{
+        from{opacity: 0;}
+        to{opacity: 1;}
+    }
+    .invalid .input-field{
+        border-color: #d93025;
+    }
+   .input-field .show-hide{
+       position: absolute;
+       right:45px;
+       top: 55%;
+       transform:translateY(-50%);
+       cursor: pointer;
+   }
+   
+
+   .field .error{
+       display: flex;
+       align-items: center;
+       margin-top: 6px;
+       color: red;
+       font-size: 13px;
+       display: none;
+   }
+   .invalid .error{
+       display: flex;
+   }
+   .field .email-error .error-text{
+       display: inline;
+       align-items: center;
+       margin-top: 6px;
+       color:red;
+       font-size: 13px;
+
+   }
+   .field .email-error .error-icon{
+       margin-top: 6px;
+       font-size: 13px;
+       display: flex;
+       display: inline;
+       color: red;
+   }
+   .field .password-error .error-text{
+    display: inline;
+    align-items: center;
+    margin-top: 6px;
+    color:red;
+    font-size: 13px;
+
+}
+.field .password-error .error-icon{
+    margin-top: 6px;
+    font-size: 13px;
+    display: flex;
+    display: inline;
+    color: red;
+}
+  
